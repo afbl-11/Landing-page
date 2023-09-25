@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono&family=Roboto+Slab&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Slab", serif;
+  box-sizing: border-box;
+  color: #f6f6f6;
+}
+body {
+  background-color: #111111;
+  display: flex;
+  overflow: hidden;
+}
+.container {
+  display: block;
+}
+.container header nav.nav-bar {
+  position: relative;
+  margin: 15px 0px 0px 47rem;
+}
+.container header nav.nav-bar ul {
+  display: flex;
+  gap: 3rem;
+}
+.container header nav.nav-bar ul li {
+  list-style: none;
+}
+.container header nav.nav-bar ul li a {
+ font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+}
+.container header nav.nav-bar ul li a:hover {
+  color: #ffcb74;
+}
+.container main article .introTxt {
+  margin: 9rem 0rem 0rem 10rem;
+}
+.container main article .introTxt h1 {
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+.container main article .introTxt h3 {
+  line-height: 30px;
+  letter-spacing: 5px;
+}
+.container main article .lorem 
+{
+    width: 35rem;
+    margin: 1rem 0 0 10rem;
+}
+.container main article .lorem p
+{
+    text-align: justify;
+    line-height: 25px;
+}
+.container main form button{
+    color: #2F2F2F;
+    background-color: #ffcb74;
+    margin: 2rem 0 0 10rem;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 10rem;
+    border-radius: 16px;
+}
+.container main form button:hover
+{
+    background-color: #f6f6f6;
+}
